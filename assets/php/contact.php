@@ -18,14 +18,15 @@
 
         $subject = trim($_POST["subject"]);
 
+        $phone = "044123456";
+
         // $phone = trim($_POST["number"]);
 
         $message = trim($_POST["massage"]);
 
-
         // Check that data was sent to the mailer.
 
-        if ( empty($first_name) OR empty($message) OR ($subject) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($first_name) OR empty($message) OR empty($subject) OR empty($email)) {
 
             // Set a 400 (bad request) response code and exit.
 
@@ -40,7 +41,7 @@
 
         // Set the recipient email address.
 
-        $recipient = "mailcheck@whizthemes.com";
+        $recipient = "kukadion1@gmail.com";
 
         // Set the email subject.
 
