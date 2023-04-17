@@ -481,6 +481,506 @@ let products =
         title: "PYLONTECH - SC0500 - 100S CONTROLLER FOR H48050"
     },
     {
+        id: 100,
+        path: "assets/images/megaproducts/100.jpg",
+        title: "PYLONTECH - H48050 2.4KWH HIGH VOLTAGE BATTERY"
+    },
+    {
+        id: 101,
+        path: "assets/images/megaproducts/101.jpg",
+        title: "HUAWEI - LUNA2000 WALL MOUNTING BRACKET"
+    },
+    {
+        id: 102,
+        path: "assets/images/megaproducts/102.jpg",
+        title: "TRINA SOLAR - VERTEX MONO 405 BLACK WHITE"
+    },
+	{
+        id: 103,
+        path: "assets/images/megaproducts/103.jpg",
+        title: "LONGI SOLAR - MONO 405 ALL BLACK HALF CUT PERC"
+    },
+	{
+        id: 104,
+        path: "assets/images/megaproducts/104.jpg",
+        title: "LONGI SOLAR - MONO 410 BLACK WHITE CUT PERC"
+    },
+	{
+        id: 105,
+        path: "assets/images/megaproducts/105.jpg",
+        title: "LONGI SOLAR - MONO 410 ALL BLACK HALF CUT PERC"
+    },
+	{
+        id: 106,
+        path: "assets/images/megaproducts/106.jpg",
+        title: "LONGI SOLAR - MONO 410 ALL BLACK HALF CUT PERC"
+    },
+	{
+        id: 107,
+        path: "assets/images/megaproducts/107.jpg",
+        title: "TRINA SOLAR - VERTEX MONO 385 ALL BLACK"
+    },
+	{
+        id: 108,
+        path: "assets/images/megaproducts/108.jpg",
+        title: "TRINA SOLAR - VERTEX MONO 400 BLACK WHITE"
+    },
+	{
+        id: 109,
+        path: "assets/images/megaproducts/109.jpg",
+        title: "JA SOLAR 405W HALF-CUT FULL BLACK"
+    },
+	{
+        id: 110,
+        path: "assets/images/megaproducts/110.jpg",
+        title: "GROUNDING CABLE 1X4MM2 YELLOW-GREEN-BOBIN 500M"
+    },
+	{
+        id: 111,
+        path: "assets/images/megaproducts/111.jpg",
+        title: "GROUNDING CABLE 1X4MM2 YELLOW-GREEN-BOBIN 100M"
+    },
+	{
+        id: 112,
+        path: "assets/images/megaproducts/112.jpg",
+        title: "GROUNDING CABLE 1X6MM2 YELLOW BOBIN 100M"
+    },
+	{
+        id: 113,
+        path: "assets/images/megaproducts/113.jpg",
+        title: "GROUNDING CABLE 1X6MM2 YELLOW-GREEN-BOBIN 500M"
+    },
+	{
+        id: 114,
+        path: "assets/images/megaproducts/114.jpg",
+        title: "CONNECTOR STAUBLI MC4 MALE 10MM2"
+    },
+	{
+        id: 115,
+        path: "assets/images/megaproducts/115.jpg",
+        title: "CONNECTOR STAUBLI MC4 FEMALE 10MM2"
+    },
+	{
+        id: 116,
+        path: "assets/images/megaproducts/116.jpg",
+        title: "CONNECTOR PIN FEMALE MC4"
+    },
+	{
+        id: 117,
+        path: "assets/images/megaproducts/117.jpg",
+        title: "CONNECTOR PIN STAUBLI MALE MC4"
+    },
+	{
+        id: 118,
+        path: "assets/images/megaproducts/118.jpg",
+        title: "CONNECTOR STAUBLI FEMALE MC4 1X4MM & 6MM"
+    },
+	{
+        id: 119,
+        path: "assets/images/megaproducts/119.jpg",
+        title: "CONNECTOR STAUBLI MALE MC4 1X4MM & 6MM"
+    },
+	{
+        id: 120,
+        path: "assets/images/megaproducts/120.jpg",
+        title: "NETWORK CABLE FTP 6 SHIELDED"
+    },
+	{
+        id: 121,
+        path: "assets/images/megaproducts/121.jpg",
+        title: "SOLAR CABLE 1X16MM2 BLACK -COIL 500M"
+    },
+	{
+        id: 122,
+        path: "assets/images/megaproducts/122.jpg",
+        title: "SOLAR CABLE 1X10MM2 BLACK -COIL 500M"
+    },
+	{
+        id: 123,
+        path: "assets/images/megaproducts/123.jpg",
+        title: "SOLAR CABLE 1X6MM2 BLACK - COIL 500M"
+    },
+	{
+        id: 124,
+        path: "assets/images/megaproducts/124.jpg",
+        title: "SOLAR CABLE 1X6MM2 BLACK - COIL 100M"
+    },
+	{
+        id: 125,
+        path: "assets/images/megaproducts/125.jpg",
+        title: "SOLAR CABLE 1X6MM2 RED - COIL 500M"
+    },
+	{
+        id: 126,
+        path: "assets/images/megaproducts/126.jpg",
+        title: "SOLAR CABLE 1X6MM2 RED - COIL 100M"
+    },
+	{
+        id: 127,
+        path: "assets/images/megaproducts/127.jpg",
+        title: "SOLAR CABLE 1X4MM2 BLACK - COIL 500M"
+    },
+	{
+        id: 128,
+        path: "assets/images/megaproducts/128.jpg",
+        title: "SOLAR CABLE 1X4MM2 BLACK - COIL 100M"
+    },
+	{
+        id: 129,
+        path: "assets/images/megaproducts/129.jpg",
+        title: "SOLAR CABLE 1X4MM2 RED - COIL 500M"
+    },
+	{
+        id: 130,
+        path: "assets/images/megaproducts/130.jpg",
+        title: "SOLAR CABLE 1X4MM2 BLACK - COIL 100M"
+    },
+	{
+        id: 131,
+        path: "assets/images/megaproducts/131.jpg",
+        title: "CABLE TIE 4.8 X 370"
+    },
+	{
+        id: 132,
+        path: "assets/images/megaproducts/132.jpg",
+        title: "CABLE TIE 7.6 X 300"
+    },
+	{
+        id: 133,
+        path: "assets/images/megaproducts/133.jpg",
+        title: "CABLE SPLITTER STAUBLI MC4 MALE 10MM2"
+    },
+	{
+        id: 134,
+        path: "assets/images/megaproducts/134.jpg",
+        title: "CABLE SPLITTER STAUBLI MC4 FEMALE 10MM2"
+    },
+	{
+        id: 135,
+        path: "assets/images/megaproducts/135.jpg",
+        title: "CABLE SPLITTER STAUBLI FFM MC4 1X4MM2 1X6MM2"
+    },
+	{
+        id: 136,
+        path: "assets/images/megaproducts/136.jpg",
+        title: "CABLE SPLITTER STAUBLI MMF MC4 1X4MM2 1X6MM2"
+    },
+	{
+        id: 137,
+        path: "assets/images/megaproducts/137.jpg",
+        title: "EXTENSION CORD PV90 1X4MM2 - 1.5M"
+    },
+	{
+        id: 138,
+        path: "assets/images/megaproducts/138.jpg",
+        title: "CONNECTOR STAUBLI MC4-EVO MALE 6MM"
+    },
+	{
+        id: 139,
+        path: "assets/images/megaproducts/139.jpg",
+        title: "CONNECTOR STAUBLI VMV4-EVO2 FEMALE 6MM"
+    },
+	{
+        id: 140,
+        path: "assets/images/megaproducts/140.jpg",
+        title: "DIFF. SWITCH 4P 40A 300MA TYPE B"
+    },
+	{
+        id: 141,
+        path: "assets/images/megaproducts/141.jpg",
+        title: "JA SOLAR 400W HALF-CUT FULL BLACK"
+    },
+	{
+        id: 142,
+        path: "assets/images/megaproducts/142.jpg",
+        title: "GOODWE GW3600-EH"
+    },
+	{
+        id: 143,
+        path: "assets/images/megaproducts/143.jpg",
+        title: "GOODWE GW5000-EH"
+    },
+	{
+        id: 144,
+        path: "assets/images/megaproducts/144.jpg",
+        title: "PYLONTECH FORCE H1 ACCUMODULE 3.55KWH"
+    },
+	{
+        id: 145,
+        path: "assets/images/megaproducts/145.jpg",
+        title: "PYLONTECH BMS FORCE H1"
+    },
+	{
+        id: 146,
+        path: "assets/images/megaproducts/146.jpg",
+        title: "GOODWE SMART METER GM1000D - 1PH"
+    },
+	{
+        id: 147,
+        path: "assets/images/megaproducts/147.jpg",
+        title: "GOODWE SMART METER GM3000"
+    },
+	{
+        id: 148,
+        path: "assets/images/megaproducts/148.jpg",
+        title: "HUAWEI SMART POWER SENSOR DDSU666-H|1-PH 100A"
+    },
+	{
+        id: 149,
+        path: "assets/images/megaproducts/149.jpg",
+        title: "HUAWEI SMART POWER SENSOR DTSU666-H|3-PH 250A"
+    },
+	{
+        id: 150,
+        path: "assets/images/megaproducts/150.jpg",
+        title: "JA SOLAR 545W HALF-CUT SILVER FRAME"
+    },
+	{
+        id: 151,
+        path: "assets/images/megaproducts/151.jpg",
+        title: "STILFIX 20 GRADE DRIEHOEK 20 DEGREE TRIANGLE"
+    },
+	{
+        id: 152,
+        path: "assets/images/megaproducts/152.jpg",
+        title: "STILFIX UNIVERSAL 20-25 DEGREE TRIANGLE"
+    },
+	{
+        id: 153,
+        path: "assets/images/megaproducts/153.jpg",
+        title: "STILFIX EAST AND WEST TRIANGLE"
+    },
+	{
+        id: 154,
+        path: "assets/images/megaproducts/154.jpg",
+        title: "MIDDLE CLAMP 30-35MM FOR FLAT ROOF"
+    },
+	{
+        id: 155,
+        path: "assets/images/megaproducts/155.jpg",
+        title: "BLACK CENTER CLAMP 30-35 FOR FLAT ROOF"
+    },
+	{
+        id: 156,
+        path: "assets/images/megaproducts/156.jpg",
+        title: "SMA SUNNY BOY 1.5"
+    },
+	{
+        id: 157,
+        path: "assets/images/megaproducts/157.jpg",
+        title: "SMA SUNNY BOY 2.5"
+    },
+	{
+        id: 158,
+        path: "assets/images/megaproducts/158.jpg",
+        title: "SMA SUNNY BOY 3.0"
+    },
+	{
+        id: 159,
+        path: "assets/images/megaproducts/159.jpg",
+        title: "SMA SUNNY BOY 3.6"
+    },
+	{
+        id: 160,
+        path: "assets/images/megaproducts/160.jpg",
+        title: "FRONIUS PRIMO GEN24 3.0 PLUS"
+    },
+	{
+        id: 161,
+        path: "assets/images/megaproducts/161.jpg",
+        title: "JA SOLAR 410W HALF-CUT BLACK FRAME"
+    },
+	{
+        id: 162,
+        path: "assets/images/megaproducts/162.jpg",
+        title: "SMA SUNNY BOY 4.0"
+    },
+	{
+        id: 163,
+        path: "assets/images/megaproducts/163.jpg",
+        title: "SMA SUNNY BOY 5.0"
+    },
+	{
+        id: 164,
+        path: "assets/images/megaproducts/164.jpg",
+        title: "SMA SUNNY BOY 6.0"
+    },
+	{
+        id: 165,
+        path: "assets/images/megaproducts/165.jpg",
+        title: "SMA SUNNY TRIPOWER 8.0"
+    },
+	{
+        id: 166,
+        path: "assets/images/megaproducts/166.jpg",
+        title: "SMA SUNNY TRIPOWER 10.0"
+    },
+	{
+        id: 167,
+        path: "assets/images/megaproducts/167.jpg",
+        title: "SMA SUNNY TRIPOWER X 15KW"
+    },
+	{
+        id: 168,
+        path: "assets/images/megaproducts/168.jpg",
+        title: "MIDDLE CLAMP 35 MM FOR FLAT ROOF"
+    },
+	{
+        id: 169,
+        path: "assets/images/megaproducts/169.jpg",
+        title: "BLACK MIDDLE CLAMP 35MM FOR FLAT ROOF"
+    },
+	{
+        id: 170,
+        path: "assets/images/megaproducts/170.jpg",
+        title: "SELFTAPPER"
+    },
+	{
+        id: 171,
+        path: "assets/images/megaproducts/171.jpg",
+        title: "WIFI AMPLIFIER"
+    },
+	{
+        id: 172,
+        path: "assets/images/megaproducts/172.jpg",
+        title: "SMA FICHES MALE"
+    },
+	{
+        id: 173,
+        path: "assets/images/megaproducts/173.jpg",
+        title: "GREY ATTACHE"
+    },
+	{
+        id: 174,
+        path: "assets/images/megaproducts/174.jpg",
+        title: "BLACK ATTACHE"
+    },
+	{
+        id: 175,
+        path: "assets/images/megaproducts/175.jpg",
+        title: "EATON AUTOMATIC 2 POLE 16A"
+    },
+	{
+        id: 176,
+        path: "assets/images/megaproducts/176.jpg",
+        title: "EATON FUSE 16 A 2P"
+    },
+	{
+        id: 177,
+        path: "assets/images/megaproducts/177.jpg",
+        title: "EATON FUSE 25 A 2P"
+    },
+	{
+        id: 178,
+        path: "assets/images/megaproducts/178.jpg",
+        title: "RED PLAKLOOD 5M"
+    },
+	{
+        id: 179,
+        path: "assets/images/megaproducts/179.jpg",
+        title: "BLACK PLAKLOOD 5M"
+    },
+	{
+        id: 180,
+        path: "assets/images/megaproducts/180.jpg",
+        title: "EATON FUSE 32A 2P"
+    },
+	{
+        id: 181,
+        path: "assets/images/megaproducts/181.jpg",
+        title: "EATON FUSE 40A 2P"
+    },
+	{
+        id: 182,
+        path: "assets/images/megaproducts/182.jpg",
+        title: "EATON FUSE 16A 4P"
+    },
+	{
+        id: 183,
+        path: "assets/images/megaproducts/183.jpg",
+        title: "ALLEN SCREW M6"
+    },
+	{
+        id: 184,
+        path: "assets/images/megaproducts/184.jpg",
+        title: "ALLEN SCREW M10"
+    },
+	{
+        id: 185,
+        path: "assets/images/megaproducts/185.jpg",
+        title: "EATON FUSE 20A 4P"
+    },
+	{
+        id: 186,
+        path: "assets/images/megaproducts/186.jpg",
+        title: "EATON FUSE 25A 4P"
+    },
+	{
+        id: 187,
+        path: "assets/images/megaproducts/187.jpg",
+        title: "WHITE SILICONE"
+    },
+	{
+        id: 188,
+        path: "assets/images/megaproducts/188.jpg",
+        title: "EATON FUSE 32A 4P"
+    },
+	{
+        id: 189,
+        path: "assets/images/megaproducts/189.jpg",
+        title: "BLACK SILICONE"
+    },
+	{
+        id: 190,
+        path: "assets/images/megaproducts/190.jpg",
+        title: "TRANSPARENT SILICONE"
+    },
+	{
+        id: 191,
+        path: "assets/images/megaproducts/191.jpg",
+        title: "GRAY SILICONE"
+    },
+	{
+        id: 192,
+        path: "assets/images/megaproducts/192.jpg",
+        title: "EATON FUSE 40A 4P"
+    },
+	{
+        id: 193,
+        path: "assets/images/megaproducts/193.jpg",
+        title: "EATON EARTH LEAKAGE CIRCUIT BREAKER 2-POLE 40A 30MA TYPE-A"
+    },
+	{
+        id: 194,
+        path: "assets/images/megaproducts/194.jpg",
+        title: "EARTH LEAKAGE CIRCUIT BREAKER 2 POLER 40A 300MA TYPE A"
+    },
+	{
+        id: 195,
+        path: "assets/images/megaproducts/195.jpg",
+        title: "EATON EARTH LEAKAGE CIRCUIT 2-POLE 63A 300MA TYPE-A"
+    },
+	{
+        id: 196,
+        path: "assets/images/megaproducts/196.jpg",
+        title: "EATON EARTH LEAKAGE CIRCUIT 2-POLE 63A 30MA TYPE-A"
+    },
+	{
+        id: 197,
+        path: "assets/images/megaproducts/197.jpg",
+        title: "EATON ELECTRICAL CIRCUIT 4-POLE 40A 300MA TYPE-A"
+    },
+	{
+        id: 198,
+        path: "assets/images/megaproducts/198.jpg",
+        title: "EATON ELECTRICAL CIRCUIT 4-POLE 40A 30MA TYPE-A"
+    },
+	{
+        id: 199,
+        path: "assets/images/megaproducts/199.jpg",
+        title: "EATON ELECTRICAL CIRCUIT 4-POLE 63A 300MA TYPE-A"
+    },
+    {
         id: 200,
         path: "assets/images/megaproducts/200.jpg",
         title: "EATON ELECTRICAL CIRCUIT 4-POLE 63A 30MA TYPE-A"
