@@ -148,33 +148,63 @@
             <div class="row mb-n4">
                 <div class="col-md-5 mb-4">
                     <div class="modal-gallery-slider" id="image-holder">
-                        
+
                     </div>
                 </div>
                 <div class="col-md-7 mb-4">
                     <div class="modal-product-des">
                         <h3 class="modal-product-title"><a href="#" class="title-holder"></a></h3>
-                        <!-- <div class="reviews">
-                            <span class="ion-star"></span>
-                            <span class="ion-star"></span>
-                            <span class="ion-star"></span>
-                            <span class="ion-star"></span>
-                            <span class="ion-star"></span>
-                        </div> -->
-
-                        <!-- <div class="product-price-wrapp-lg">
-                            <span class="product-regular-price-lg">€43.80</span>
-                            <span class="product-price-on-sale-lg">€39.42</span>
-                            <span class="badge badge-lg bg-dark">Save 8%</span>
-                        </div> -->
-
-                        <!-- <div class="product-description-short">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin
-                                lectus ipsum,
-                                gravida et mattis vulputate, tristique ut lectus</p>
-                        </div> -->
+                        <form id="contactForm" class="row contact-us-form" action="assets/php/contact.php" method="POST"
+                            novalidate="novalidate">
+                            <div class="col-12">
+                                <label class="form-label" for="name">Quantity</label>
+                                <div class="product-count style d-flex mb-4">
+                                    <div class="count d-flex">
+                                        <input type="number" min="1" max="100" step="1" value="1">
+                                        <div class="button-group">
+                                            <button type="button" class="count-btn increment">
+                                                <span class="ion-chevron-up"></span>
+                                            </button>
+                                            <button type="button" class="count-btn decrement">
+                                                <span class="ion-chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="name">Your Name (required)</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name*">
+                            </div>
+                            <!-- Name filed end -->
+                            <div class="col-6">
+                                <label class="form-label" for="email">Your Email (required)</label>
+                                <input type="text" class="form-control" id="email" name="email"
+                                    placeholder="Your Email*">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label" for="phone">Your Phone</label>
+                                <input type="text" class="form-control" id="phone" name="phone"
+                                    placeholder="Your Phone">
+                            </div>
+                            <!-- email filed end -->
+                            <div class="col-12 d-none">
+                                <label class="form-label" for="subject">Subject</label>
+                                <input type="text" class="form-control" id="subject" value="New Order - " name="subject"
+                                    placeholder="Your subject*">
+                            </div>
+                            <!-- Subject filed end -->
+                            <div class="col-12">
+                                <label class="form-label" for="massage">Your Message</label>
+                                <textarea class="form-control massage-control" name="massage" id="massage" cols="30"
+                                    rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <!-- Message filed end -->
+                            <div class="col-12">
+                                <button id="contactSubmit" type="submit" class="btn btn-dark">Send Order</button>
+                                <p class="form-message mt-3"></p>
+                            </div>
+                        </form>
                         <!-- Contact form here -->
                     </div>
                 </div>
@@ -268,19 +298,22 @@
                         <h4 class="title">Quick Links</h4>
                         <ul class="footer-menu">
                             <li class="footer-menu-items"><a class="footer-menu-link" href="index.html">Home</a></li>
-                            <li class="footer-menu-items"><a class="footer-menu-link" href="contact-us.html">Contact us</a></li>
-                            <li class="footer-menu-items"><a class="footer-menu-link" href="products.html">Products</a></li>
-                                <!-- <li class="footer-menu-items"><a class="footer-menu-link" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li class="footer-menu-items"><a class="footer-menu-link" href="contact-us.html">Contact
+                                    us</a></li>
+                            <li class="footer-menu-items"><a class="footer-menu-link" href="products.html">Products</a>
+                            </li>
+                            <!-- <li class="footer-menu-items"><a class="footer-menu-link" href="privacy-policy.html">Privacy Policy</a></li>
                                 <li class="footer-menu-items"><a class="footer-menu-link" href="frequently.html">Frequently Questions</a></li> -->
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="footer-widget">
                         <h4 class="title">About Us</h4>
                         <p>
-                            Our mission is to help our clients navigate the complex world of renewable energy and make the transition to sustainable energy sources as easy and cost-effective as possible.
+                            Our mission is to help our clients navigate the complex world of renewable energy and make
+                            the transition to sustainable energy sources as easy and cost-effective as possible.
 
                         </p>
                         <p class="mb-0">Address: St. Hasan Hasani, Veternik, Pristina, Kosovo</p>
@@ -299,9 +332,10 @@
                                 <div class="col-12 col-md-6 mb-4 order-last order-md-first">
                                     <p class="text-center text-md-start">&copy; <span id="currentYear"></span>
                                         <a href="index.html">MegaConsulting</a> All Rights
-                                        Reserved </p>
+                                        Reserved
+                                    </p>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

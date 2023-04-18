@@ -18,7 +18,7 @@
 
         $subject = trim($_POST["subject"]);
 
-        $phone = "044123456";
+        $phone =  trim($_POST["phone"]);
 
         // $phone = trim($_POST["number"]);
 
@@ -41,11 +41,11 @@
 
         // Set the recipient email address.
 
-        $recipient = "kukadion1@gmail.com";
+        $recipient = "dion.kuka@ubt-uni.net";
 
         // Set the email subject.
 
-        $subject = "test - Mail From $first_name";
+        //$subject = "test - Mail From $first_name";
 
         // Build the email content.
 
@@ -355,7 +355,6 @@
 
                             <td align="center" valign="top">
 
-                                <!--== TemplateContainer Start ==-->
 
                                 <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
 
@@ -367,8 +366,6 @@
 
                 
 
-                                    <!--== Content Area Start ==-->
-
                                     <tr class="content-wrapper">
 
                                         <td align="center" valign="top">
@@ -376,8 +373,6 @@
                                             <table width="560" cellpadding="0" cellspacing="0" border="0" class="container">
 
 
-
-                                                <!--== Start Name Field Item ==-->
 
                                                 <tr>
 
@@ -393,11 +388,6 @@
 
                                                 </tr>
 
-                                                <!--== End Name Field Item ==-->
-
-                                                
-
-                                                <!--== Start Separator ==-->
 
                                                 <tr>
 
@@ -405,11 +395,6 @@
 
                                                 </tr>
 
-                                                <!--== End Separator ==-->
-
-                    
-
-                                                <!--== Start Email Field Item ==-->
 
                                                 <tr>
 
@@ -425,11 +410,6 @@
 
                                                 </tr>
 
-                                                <!--== Start Email Field Item ==-->
-
-                        
-
-                                                <!--== Start Separator ==-->
 
                                                 <tr>
 
@@ -437,31 +417,21 @@
 
                                                 </tr>
 
-                                                <!--== End Separator ==-->                                               
+                                                <tr>
 
-                        
+                                                     <td width="100%" class="mobile" align="left" valign="middle">
 
-                                                <!--== Start Phone Field Item ==-->
+                                                         <h3>Phone or Mobile:</h3>
 
-                                                // <tr>
+                                                        <hr>
 
-                                                //     <td width="100%" class="mobile" align="left" valign="middle">
+                                                         <h2>'. $phone .'</h2>
 
-                                                //         <h3>Phone or Mobile:</h3>
+                                                     </td>
 
-                                                //         <hr>
-
-                                                //         <h2>'. $phone .'</h2>
-
-                                                //     </td>
-
-                                                // </tr>
-
-                                                <!--== End Phone Field Item ==-->
+                                                 </tr>
 
                                                 
-
-                                                <!--== Start Separator ==-->
 
                                                 <tr>
 
@@ -469,11 +439,6 @@
 
                                                 </tr>
 
-                                                <!--== End Separator ==-->
-
-                                                
-
-                                                <!--== Start Subject Field Item ==-->
 
                                                 <tr>
 
@@ -489,11 +454,6 @@
 
                                                 </tr>
 
-                                                <!--== End Subject Field Item ==-->
-
-                
-
-                                                <!--== Start Separator ==-->
 
                                                 <tr>
 
@@ -501,11 +461,6 @@
 
                                                 </tr>
 
-                                                <!--== End Separator ==-->
-
-                                                
-
-                                                 <!--== Start Message Field Item ==-->
 
                                                 <tr>
 
@@ -521,17 +476,11 @@
 
                                                 </tr>
 
-                                                <!--== End Message Field Item ==-->
-
                                             </table>
 
                                         </td>
 
                                      </tr>
-
-                                    <!--== Content Area End ==-->
-
-                                    
 
                                     <tr>
 
@@ -540,8 +489,6 @@
                                     </tr>
 
                                 </table>
-
-                                <!--== TemplateContainer End ==-->
 
                             </td>
 
@@ -561,7 +508,7 @@
 
                             <td align="center" valign="top">
 
-                                <a href="https://hasthemes.com/" target="_blank"><img width="120" src="https://hasthemes.com/wp-content/uploads/2019/01/1.png" alt="HasThemes"></a>
+                                <a href="http://megaconsulting-ks.com/" target="_blank"><img width="120" src="https://megaconsulting-ks.com/assets/images/logo/mega-transparent-1.png" alt="Mega Consulting"></a>
 
                             </td>
 
@@ -587,19 +534,16 @@
 
         // Build the email headers.
 
-        $email_headers = "MIME-Version: 1.0" . "\r\n";
-
-        $email_headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-        $email_headers .= 'From:' . $first_name . ' ' . 'noreply@yourdomain.com' . "\r\n";
-
-        $email_headers .= 'Reply-To:' . $email . "\r\n";
+        $headers = "MIME-Version: 1.0\n";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\n";
+        $headers .= "From: ".$first_name." <".$email.">\n";
+        $headers .= "X-Priority: 1\n";
 
 
 
         // Send the email.
 
-        if (mail($recipient, $email_content, $email_headers)) {
+        if (mail($recipient,$subject, $email_content, $headers)) {
 
             // Set a 200 (okay) response code.
 
