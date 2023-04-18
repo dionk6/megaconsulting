@@ -154,13 +154,13 @@
                 <div class="col-md-7 mb-4">
                     <div class="modal-product-des">
                         <h3 class="modal-product-title"><a href="#" class="title-holder"></a></h3>
-                        <form id="contactForm" class="row contact-us-form" action="assets/php/contact.php" method="POST"
+                        <form id="contactForm" class="row contact-us-form" action="assets/php/order.php" method="POST"
                             novalidate="novalidate">
                             <div class="col-12">
                                 <label class="form-label" for="name">Quantity</label>
                                 <div class="product-count style d-flex mb-4">
                                     <div class="count d-flex">
-                                        <input type="number" min="1" max="100" step="1" value="1">
+                                        <input type="number" min="1" max="100" name="quantity" step="1" value="1">
                                         <div class="button-group">
                                             <button type="button" class="count-btn increment">
                                                 <span class="ion-chevron-up"></span>
@@ -183,14 +183,14 @@
                                     placeholder="Your Email*">
                             </div>
                             <div class="col-6">
-                                <label class="form-label" for="phone">Your Phone</label>
+                                <label class="form-label" for="phone">Your Phone (required)</label>
                                 <input type="text" class="form-control" id="phone" name="phone"
-                                    placeholder="Your Phone">
+                                    placeholder="Your Phone*">
                             </div>
                             <!-- email filed end -->
                             <div class="col-12 d-none">
                                 <label class="form-label" for="subject">Subject</label>
-                                <input type="text" class="form-control" id="subject" value="New Order - " name="subject"
+                                <input type="text" class="form-control" id="subject" name="subject"
                                     placeholder="Your subject*">
                             </div>
                             <!-- Subject filed end -->

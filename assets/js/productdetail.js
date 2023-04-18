@@ -16,3 +16,5 @@ let imgTag =
 `
 
 document.getElementById("image-holder").innerHTML = imgTag;
+
+document.getElementById("subject").value = "New Order - "+obj.title;
